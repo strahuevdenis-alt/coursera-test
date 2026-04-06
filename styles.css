@@ -1,0 +1,35 @@
+/* Настройка навигации */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Стили для мобильного выпадающего меню */
+#nav-list {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  margin: 0;
+}
+
+#nav-list li a {
+  text-align: center;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Высокая секция по условию задания */
+#main-content {
+  background-color: #999;
+  padding: 20px;
+  height: 1000px; /* Чтобы гарантировать скролл */
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
